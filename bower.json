@@ -1,0 +1,11 @@
+{
+  "name": "Alexey",
+  "version": "0.0.0",
+  "authors": [
+    "roffl <misorinak@gmail.com>"
+  ],
+  "dependencies": {
+    "normalize.css": "~3.0.2",
+    "jquery": "1.8"
+  }
+}
