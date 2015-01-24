@@ -1,0 +1,356 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'c:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'gulp-useref',
+1 verbose cli   'gulp-uglify',
+1 verbose cli   'gilp-if',
+1 verbose cli   'gulp-minify-css' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 warn package.json Alexey@1.0.0 No description
+5 warn package.json Alexey@1.0.0 No repository field.
+6 warn package.json Alexey@1.0.0 No README data
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'gulp-useref', null ]
+9 verbose cache add name=undefined spec="gulp-useref" args=["gulp-useref",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'gulp-useref',
+10 verbose parsed url   path: 'gulp-useref',
+10 verbose parsed url   href: 'gulp-useref' }
+11 verbose cache add [ 'gulp-uglify', null ]
+12 verbose cache add name=undefined spec="gulp-uglify" args=["gulp-uglify",null]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'gulp-uglify',
+13 verbose parsed url   path: 'gulp-uglify',
+13 verbose parsed url   href: 'gulp-uglify' }
+14 verbose cache add [ 'gilp-if', null ]
+15 verbose cache add name=undefined spec="gilp-if" args=["gilp-if",null]
+16 verbose parsed url { protocol: null,
+16 verbose parsed url   slashes: null,
+16 verbose parsed url   auth: null,
+16 verbose parsed url   host: null,
+16 verbose parsed url   port: null,
+16 verbose parsed url   hostname: null,
+16 verbose parsed url   hash: null,
+16 verbose parsed url   search: null,
+16 verbose parsed url   query: null,
+16 verbose parsed url   pathname: 'gilp-if',
+16 verbose parsed url   path: 'gilp-if',
+16 verbose parsed url   href: 'gilp-if' }
+17 verbose cache add [ 'gulp-minify-css', null ]
+18 verbose cache add name=undefined spec="gulp-minify-css" args=["gulp-minify-css",null]
+19 verbose parsed url { protocol: null,
+19 verbose parsed url   slashes: null,
+19 verbose parsed url   auth: null,
+19 verbose parsed url   host: null,
+19 verbose parsed url   port: null,
+19 verbose parsed url   hostname: null,
+19 verbose parsed url   hash: null,
+19 verbose parsed url   search: null,
+19 verbose parsed url   query: null,
+19 verbose parsed url   pathname: 'gulp-minify-css',
+19 verbose parsed url   path: 'gulp-minify-css',
+19 verbose parsed url   href: 'gulp-minify-css' }
+20 silly lockFile 48755a82-gulp-useref gulp-useref
+21 verbose lock gulp-useref C:\Users\Алексей\AppData\Roaming\npm-cache\48755a82-gulp-useref.lock
+22 silly lockFile 15fab96b-gulp-uglify gulp-uglify
+23 verbose lock gulp-uglify C:\Users\Алексей\AppData\Roaming\npm-cache\15fab96b-gulp-uglify.lock
+24 silly lockFile d7eb4ea5-gilp-if gilp-if
+25 verbose lock gilp-if C:\Users\Алексей\AppData\Roaming\npm-cache\d7eb4ea5-gilp-if.lock
+26 silly lockFile 6bf44555-gulp-minify-css gulp-minify-css
+27 verbose lock gulp-minify-css C:\Users\Алексей\AppData\Roaming\npm-cache\6bf44555-gulp-minify-css.lock
+28 silly lockFile 15fab96b-gulp-uglify gulp-uglify
+29 silly lockFile 15fab96b-gulp-uglify gulp-uglify
+30 silly lockFile 48755a82-gulp-useref gulp-useref
+31 silly lockFile 48755a82-gulp-useref gulp-useref
+32 verbose addNamed [ 'gulp-uglify', '' ]
+33 verbose addNamed [ null, '*' ]
+34 silly lockFile 044a9113-gulp-uglify gulp-uglify@
+35 verbose lock gulp-uglify@ C:\Users\Алексей\AppData\Roaming\npm-cache\044a9113-gulp-uglify.lock
+36 silly lockFile d7eb4ea5-gilp-if gilp-if
+37 silly lockFile d7eb4ea5-gilp-if gilp-if
+38 verbose addNamed [ 'gulp-useref', '' ]
+39 verbose addNamed [ null, '*' ]
+40 silly lockFile 30eb18c1-gulp-useref gulp-useref@
+41 verbose lock gulp-useref@ C:\Users\Алексей\AppData\Roaming\npm-cache\30eb18c1-gulp-useref.lock
+42 verbose addNamed [ 'gilp-if', '' ]
+43 verbose addNamed [ null, '*' ]
+44 silly lockFile a6739bc4-gilp-if gilp-if@
+45 verbose lock gilp-if@ C:\Users\Алексей\AppData\Roaming\npm-cache\a6739bc4-gilp-if.lock
+46 silly lockFile 6bf44555-gulp-minify-css gulp-minify-css
+47 silly lockFile 6bf44555-gulp-minify-css gulp-minify-css
+48 silly addNameRange { name: 'gulp-uglify', range: '*', hasData: false }
+49 verbose addNamed [ 'gulp-minify-css', '' ]
+50 verbose addNamed [ null, '*' ]
+51 silly lockFile 37de6304-gulp-minify-css gulp-minify-css@
+52 verbose lock gulp-minify-css@ C:\Users\Алексей\AppData\Roaming\npm-cache\37de6304-gulp-minify-css.lock
+53 verbose request where is /gulp-uglify
+54 verbose request registry https://registry.npmjs.org/
+55 verbose request id 35178a39155ac965
+56 verbose url raw /gulp-uglify
+57 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-uglify' ]
+58 verbose url resolved https://registry.npmjs.org/gulp-uglify
+59 verbose request where is https://registry.npmjs.org/gulp-uglify
+60 info trying registry request attempt 1 at 16:46:16
+61 http GET https://registry.npmjs.org/gulp-uglify
+62 silly addNameRange { name: 'gulp-useref', range: '*', hasData: false }
+63 silly addNameRange { name: 'gilp-if', range: '*', hasData: false }
+64 verbose request where is /gulp-useref
+65 verbose request registry https://registry.npmjs.org/
+66 verbose url raw /gulp-useref
+67 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-useref' ]
+68 verbose url resolved https://registry.npmjs.org/gulp-useref
+69 verbose request where is https://registry.npmjs.org/gulp-useref
+70 info trying registry request attempt 1 at 16:46:16
+71 http GET https://registry.npmjs.org/gulp-useref
+72 verbose request where is /gilp-if
+73 verbose request registry https://registry.npmjs.org/
+74 verbose url raw /gilp-if
+75 verbose url resolving [ 'https://registry.npmjs.org/', './gilp-if' ]
+76 verbose url resolved https://registry.npmjs.org/gilp-if
+77 verbose request where is https://registry.npmjs.org/gilp-if
+78 info trying registry request attempt 1 at 16:46:16
+79 http GET https://registry.npmjs.org/gilp-if
+80 silly addNameRange { name: 'gulp-minify-css', range: '*', hasData: false }
+81 verbose request where is /gulp-minify-css
+82 verbose request registry https://registry.npmjs.org/
+83 verbose url raw /gulp-minify-css
+84 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-minify-css' ]
+85 verbose url resolved https://registry.npmjs.org/gulp-minify-css
+86 verbose request where is https://registry.npmjs.org/gulp-minify-css
+87 info trying registry request attempt 1 at 16:46:16
+88 http GET https://registry.npmjs.org/gulp-minify-css
+89 http 200 https://registry.npmjs.org/gulp-minify-css
+90 silly registry.get cb [ 200,
+90 silly registry.get   { date: 'Sat, 24 Jan 2015 13:46:16 GMT',
+90 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+90 silly registry.get     etag: '"3LGA411TRNLEBWXHWW4W6S1PL"',
+90 silly registry.get     'content-type': 'application/json',
+90 silly registry.get     'cache-control': 'max-age=60',
+90 silly registry.get     'content-length': '30805',
+90 silly registry.get     'accept-ranges': 'bytes',
+90 silly registry.get     via: '1.1 varnish',
+90 silly registry.get     age: '59',
+90 silly registry.get     'x-served-by': 'cache-fra1228-FRA',
+90 silly registry.get     'x-cache': 'HIT',
+90 silly registry.get     'x-cache-hits': '1',
+90 silly registry.get     'x-timer': 'S1422107176.580064,VS0,VE0',
+90 silly registry.get     vary: 'Accept',
+90 silly registry.get     'keep-alive': 'timeout=10, max=50',
+90 silly registry.get     connection: 'Keep-Alive' } ]
+91 silly addNameRange number 2 { name: 'gulp-minify-css', range: '*', hasData: true }
+92 silly addNameRange versions [ 'gulp-minify-css',
+92 silly addNameRange   [ '0.0.1',
+92 silly addNameRange     '0.1.0',
+92 silly addNameRange     '0.2.0',
+92 silly addNameRange     '0.3.0',
+92 silly addNameRange     '0.3.1',
+92 silly addNameRange     '0.3.2',
+92 silly addNameRange     '0.3.3',
+92 silly addNameRange     '0.3.4',
+92 silly addNameRange     '0.3.5',
+92 silly addNameRange     '0.3.6',
+92 silly addNameRange     '0.3.7',
+92 silly addNameRange     '0.3.8',
+92 silly addNameRange     '0.3.9',
+92 silly addNameRange     '0.3.10',
+92 silly addNameRange     '0.3.11',
+92 silly addNameRange     '0.3.12',
+92 silly addNameRange     '0.3.13',
+92 silly addNameRange     '0.4.0',
+92 silly addNameRange     '0.4.1',
+92 silly addNameRange     '0.4.2' ] ]
+93 verbose addNamed [ 'gulp-minify-css', '0.4.2' ]
+94 verbose addNamed [ '0.4.2', '0.4.2' ]
+95 silly lockFile 86764d94-gulp-minify-css-0-4-2 gulp-minify-css@0.4.2
+96 verbose lock gulp-minify-css@0.4.2 C:\Users\Алексей\AppData\Roaming\npm-cache\86764d94-gulp-minify-css-0-4-2.lock
+97 silly lockFile d1e42d8c-fy-css-gulp-minify-css-0-4-2-tgz https://registry.npmjs.org/gulp-minify-css/-/gulp-minify-css-0.4.2.tgz
+98 verbose lock https://registry.npmjs.org/gulp-minify-css/-/gulp-minify-css-0.4.2.tgz C:\Users\Алексей\AppData\Roaming\npm-cache\d1e42d8c-fy-css-gulp-minify-css-0-4-2-tgz.lock
+99 verbose addRemoteTarball [ 'https://registry.npmjs.org/gulp-minify-css/-/gulp-minify-css-0.4.2.tgz',
+99 verbose addRemoteTarball   '89e9abed62d75b6d073757d635058bb58b4c1f9d' ]
+100 info retry fetch attempt 1 at 16:46:16
+101 verbose fetch to= C:\Users\CD86~1\AppData\Local\Temp\npm-3368-ZYfSAeDN\registry.npmjs.org\gulp-minify-css\-\gulp-minify-css-0.4.2.tgz
+102 http GET https://registry.npmjs.org/gulp-minify-css/-/gulp-minify-css-0.4.2.tgz
+103 http 404 https://registry.npmjs.org/gilp-if
+104 verbose headers { date: 'Sat, 24 Jan 2015 13:46:17 GMT',
+104 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+104 verbose headers   'content-type': 'application/json',
+104 verbose headers   'cache-control': 'max-age=0',
+104 verbose headers   'content-length': '52',
+104 verbose headers   'accept-ranges': 'bytes',
+104 verbose headers   via: '1.1 varnish',
+104 verbose headers   age: '0',
+104 verbose headers   'x-served-by': 'cache-fra1233-FRA',
+104 verbose headers   'x-cache': 'MISS',
+104 verbose headers   'x-cache-hits': '0',
+104 verbose headers   'x-timer': 'S1422107176.583896,VS0,VE416',
+104 verbose headers   'keep-alive': 'timeout=10, max=50',
+104 verbose headers   connection: 'Keep-Alive' }
+105 silly registry.get cb [ 404,
+105 silly registry.get   { date: 'Sat, 24 Jan 2015 13:46:17 GMT',
+105 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+105 silly registry.get     'content-type': 'application/json',
+105 silly registry.get     'cache-control': 'max-age=0',
+105 silly registry.get     'content-length': '52',
+105 silly registry.get     'accept-ranges': 'bytes',
+105 silly registry.get     via: '1.1 varnish',
+105 silly registry.get     age: '0',
+105 silly registry.get     'x-served-by': 'cache-fra1233-FRA',
+105 silly registry.get     'x-cache': 'MISS',
+105 silly registry.get     'x-cache-hits': '0',
+105 silly registry.get     'x-timer': 'S1422107176.583896,VS0,VE416',
+105 silly registry.get     'keep-alive': 'timeout=10, max=50',
+105 silly registry.get     connection: 'Keep-Alive' } ]
+106 silly lockFile a6739bc4-gilp-if gilp-if@
+107 silly lockFile a6739bc4-gilp-if gilp-if@
+108 http 200 https://registry.npmjs.org/gulp-uglify
+109 silly registry.get cb [ 200,
+109 silly registry.get   { date: 'Sat, 24 Jan 2015 13:46:16 GMT',
+109 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+109 silly registry.get     etag: '"ECJC83PTLXM7MTRPMKNW1VD8P"',
+109 silly registry.get     'content-type': 'application/json',
+109 silly registry.get     'cache-control': 'max-age=60',
+109 silly registry.get     'content-length': '22866',
+109 silly registry.get     'accept-ranges': 'bytes',
+109 silly registry.get     via: '1.1 varnish',
+109 silly registry.get     age: '60',
+109 silly registry.get     'x-served-by': 'cache-fra1231-FRA',
+109 silly registry.get     'x-cache': 'HIT',
+109 silly registry.get     'x-cache-hits': '1',
+109 silly registry.get     'x-timer': 'S1422107176.581400,VS0,VE0',
+109 silly registry.get     vary: 'Accept',
+109 silly registry.get     'keep-alive': 'timeout=10, max=50',
+109 silly registry.get     connection: 'Keep-Alive' } ]
+110 silly addNameRange number 2 { name: 'gulp-uglify', range: '*', hasData: true }
+111 silly addNameRange versions [ 'gulp-uglify',
+111 silly addNameRange   [ '0.0.1',
+111 silly addNameRange     '0.0.3',
+111 silly addNameRange     '0.0.4',
+111 silly addNameRange     '0.1.0',
+111 silly addNameRange     '0.2.0',
+111 silly addNameRange     '0.2.1',
+111 silly addNameRange     '0.3.0',
+111 silly addNameRange     '0.3.1',
+111 silly addNameRange     '0.3.2',
+111 silly addNameRange     '1.0.0-0',
+111 silly addNameRange     '1.0.0',
+111 silly addNameRange     '1.0.1',
+111 silly addNameRange     '1.0.2',
+111 silly addNameRange     '1.1.0' ] ]
+112 verbose addNamed [ 'gulp-uglify', '1.1.0' ]
+113 verbose addNamed [ '1.1.0', '1.1.0' ]
+114 silly lockFile 91b67821-gulp-uglify-1-1-0 gulp-uglify@1.1.0
+115 verbose lock gulp-uglify@1.1.0 C:\Users\Алексей\AppData\Roaming\npm-cache\91b67821-gulp-uglify-1-1-0.lock
+116 silly lockFile 8a0655e2-ulp-uglify-gulp-uglify-1-1-0-tgz https://registry.npmjs.org/gulp-uglify/-/gulp-uglify-1.1.0.tgz
+117 verbose lock https://registry.npmjs.org/gulp-uglify/-/gulp-uglify-1.1.0.tgz C:\Users\Алексей\AppData\Roaming\npm-cache\8a0655e2-ulp-uglify-gulp-uglify-1-1-0-tgz.lock
+118 verbose addRemoteTarball [ 'https://registry.npmjs.org/gulp-uglify/-/gulp-uglify-1.1.0.tgz',
+118 verbose addRemoteTarball   'd50cac9c92226454528d0dd0f6ed99920672ba5c' ]
+119 info retry fetch attempt 1 at 16:46:17
+120 verbose fetch to= C:\Users\CD86~1\AppData\Local\Temp\npm-3368-ZYfSAeDN\registry.npmjs.org\gulp-uglify\-\gulp-uglify-1.1.0.tgz
+121 http GET https://registry.npmjs.org/gulp-uglify/-/gulp-uglify-1.1.0.tgz
+122 http 200 https://registry.npmjs.org/gulp-minify-css/-/gulp-minify-css-0.4.2.tgz
+123 http 200 https://registry.npmjs.org/gulp-useref
+124 silly registry.get cb [ 200,
+124 silly registry.get   { date: 'Sat, 24 Jan 2015 13:46:16 GMT',
+124 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+124 silly registry.get     etag: '"2ZZMU7WTNC0W77FVOMOQY2JWG"',
+124 silly registry.get     'content-type': 'application/json',
+124 silly registry.get     'cache-control': 'max-age=60',
+124 silly registry.get     'content-length': '31812',
+124 silly registry.get     'accept-ranges': 'bytes',
+124 silly registry.get     via: '1.1 varnish',
+124 silly registry.get     age: '59',
+124 silly registry.get     'x-served-by': 'cache-fra1237-FRA',
+124 silly registry.get     'x-cache': 'HIT',
+124 silly registry.get     'x-cache-hits': '2',
+124 silly registry.get     'x-timer': 'S1422107176.580362,VS0,VE0',
+124 silly registry.get     vary: 'Accept',
+124 silly registry.get     'keep-alive': 'timeout=10, max=50',
+124 silly registry.get     connection: 'Keep-Alive' } ]
+125 silly addNameRange number 2 { name: 'gulp-useref', range: '*', hasData: true }
+126 silly addNameRange versions [ 'gulp-useref',
+126 silly addNameRange   [ '0.1.0',
+126 silly addNameRange     '0.1.1',
+126 silly addNameRange     '0.1.2',
+126 silly addNameRange     '0.2.0',
+126 silly addNameRange     '0.2.1',
+126 silly addNameRange     '0.2.2',
+126 silly addNameRange     '0.3.0',
+126 silly addNameRange     '0.3.1',
+126 silly addNameRange     '0.4.0',
+126 silly addNameRange     '0.4.1',
+126 silly addNameRange     '0.4.2',
+126 silly addNameRange     '0.4.3',
+126 silly addNameRange     '0.4.4',
+126 silly addNameRange     '0.4.5',
+126 silly addNameRange     '0.5.0',
+126 silly addNameRange     '0.6.0',
+126 silly addNameRange     '1.0.0',
+126 silly addNameRange     '1.0.1',
+126 silly addNameRange     '1.0.2',
+126 silly addNameRange     '1.1.0',
+126 silly addNameRange     '1.1.1' ] ]
+127 verbose addNamed [ 'gulp-useref', '1.1.1' ]
+128 verbose addNamed [ '1.1.1', '1.1.1' ]
+129 silly lockFile 57860f31-gulp-useref-1-1-1 gulp-useref@1.1.1
+130 verbose lock gulp-useref@1.1.1 C:\Users\Алексей\AppData\Roaming\npm-cache\57860f31-gulp-useref-1-1-1.lock
+131 silly lockFile a03a5d11-ulp-useref-gulp-useref-1-1-1-tgz https://registry.npmjs.org/gulp-useref/-/gulp-useref-1.1.1.tgz
+132 verbose lock https://registry.npmjs.org/gulp-useref/-/gulp-useref-1.1.1.tgz C:\Users\Алексей\AppData\Roaming\npm-cache\a03a5d11-ulp-useref-gulp-useref-1-1-1-tgz.lock
+133 verbose addRemoteTarball [ 'https://registry.npmjs.org/gulp-useref/-/gulp-useref-1.1.1.tgz',
+133 verbose addRemoteTarball   '65466ba33afed27c2959cc997d511adb6fd4f44e' ]
+134 info retry fetch attempt 1 at 16:46:17
+135 verbose fetch to= C:\Users\CD86~1\AppData\Local\Temp\npm-3368-ZYfSAeDN\registry.npmjs.org\gulp-useref\-\gulp-useref-1.1.1.tgz
+136 http GET https://registry.npmjs.org/gulp-useref/-/gulp-useref-1.1.1.tgz
+137 silly lockFile d1e42d8c-fy-css-gulp-minify-css-0-4-2-tgz https://registry.npmjs.org/gulp-minify-css/-/gulp-minify-css-0.4.2.tgz
+138 silly lockFile d1e42d8c-fy-css-gulp-minify-css-0-4-2-tgz https://registry.npmjs.org/gulp-minify-css/-/gulp-minify-css-0.4.2.tgz
+139 silly lockFile 86764d94-gulp-minify-css-0-4-2 gulp-minify-css@0.4.2
+140 silly lockFile 86764d94-gulp-minify-css-0-4-2 gulp-minify-css@0.4.2
+141 silly lockFile 37de6304-gulp-minify-css gulp-minify-css@
+142 silly lockFile 37de6304-gulp-minify-css gulp-minify-css@
+143 http 200 https://registry.npmjs.org/gulp-uglify/-/gulp-uglify-1.1.0.tgz
+144 silly lockFile 8a0655e2-ulp-uglify-gulp-uglify-1-1-0-tgz https://registry.npmjs.org/gulp-uglify/-/gulp-uglify-1.1.0.tgz
+145 silly lockFile 8a0655e2-ulp-uglify-gulp-uglify-1-1-0-tgz https://registry.npmjs.org/gulp-uglify/-/gulp-uglify-1.1.0.tgz
+146 silly lockFile 91b67821-gulp-uglify-1-1-0 gulp-uglify@1.1.0
+147 silly lockFile 91b67821-gulp-uglify-1-1-0 gulp-uglify@1.1.0
+148 silly lockFile 044a9113-gulp-uglify gulp-uglify@
+149 silly lockFile 044a9113-gulp-uglify gulp-uglify@
+150 http 200 https://registry.npmjs.org/gulp-useref/-/gulp-useref-1.1.1.tgz
+151 silly lockFile a03a5d11-ulp-useref-gulp-useref-1-1-1-tgz https://registry.npmjs.org/gulp-useref/-/gulp-useref-1.1.1.tgz
+152 silly lockFile a03a5d11-ulp-useref-gulp-useref-1-1-1-tgz https://registry.npmjs.org/gulp-useref/-/gulp-useref-1.1.1.tgz
+153 silly lockFile 57860f31-gulp-useref-1-1-1 gulp-useref@1.1.1
+154 silly lockFile 57860f31-gulp-useref-1-1-1 gulp-useref@1.1.1
+155 silly lockFile 30eb18c1-gulp-useref gulp-useref@
+156 silly lockFile 30eb18c1-gulp-useref gulp-useref@
+157 error 404 404 Not Found: gilp-if
+157 error 404
+157 error 404 'gilp-if' is not in the npm registry.
+157 error 404 You should bug the author to publish it
+157 error 404 It was specified as a dependency of 'Alexey'
+157 error 404
+157 error 404 Note that you can also install from a
+157 error 404 tarball, folder, or http url, or git url.
+158 error System Windows_NT 6.2.9200
+159 error command "c:\\Program Files\\nodejs\\node.exe" "c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "--save" "gulp-useref" "gulp-uglify" "gilp-if" "gulp-minify-css"
+160 error cwd c:\Alexey
+161 error node -v v0.10.35
+162 error npm -v 1.4.28
+163 error code E404
+164 verbose exit [ 1, true ]
